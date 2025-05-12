@@ -1,0 +1,9 @@
+<?php
+header("Access-Control-Allow-Origin: *");
+header("Content-Type: application/json");
+header("Access-Control-Allow-Methods: POST, GET, OPTIONS");
+header("Access-Control-Allow-Headers: Content-Type, Authorization");
+
+// مسار الـ Routes
+require_once './routes/auth.php';
+require_once './routes/profile.php';
