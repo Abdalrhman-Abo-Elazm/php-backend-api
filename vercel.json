@@ -3,26 +3,32 @@
   "routes": [
     {
       "src": "/api/reset-password",
+      "methods": ["POST"],
       "dest": "/routes/auth.php"
     },
     {
       "src": "/api/verify-code",
+      "methods": ["POST"],
       "dest": "/routes/auth.php"
     },
     {
       "src": "/api/create-account",
+      "methods": ["POST"],
       "dest": "/routes/auth.php"
     },
     {
       "src": "/api/login",
+      "methods": ["POST"],
       "dest": "/routes/auth.php"
     },
     {
       "src": "/api/update-password",
+      "methods": ["POST"],
       "dest": "/routes/profile.php"
     },
     {
       "src": "/api/profile-update",
+      "methods": ["POST"],
       "dest": "/routes/profile.php"
     }
   ]
