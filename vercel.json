@@ -2,8 +2,28 @@
   "version": 2,
   "routes": [
     {
-      "src": "/(.*)",
-      "dest": "/index.php"
+      "src": "/api/reset-password",
+      "dest": "/routes/auth.php"
+    },
+    {
+      "src": "/api/verify-code",
+      "dest": "/routes/auth.php"
+    },
+    {
+      "src": "/api/create-account",
+      "dest": "/routes/auth.php"
+    },
+    {
+      "src": "/api/login",
+      "dest": "/routes/auth.php"
+    },
+    {
+      "src": "/api/update-password",
+      "dest": "/routes/profile.php"
+    },
+    {
+      "src": "/api/profile-update",
+      "dest": "/routes/profile.php"
     }
   ]
 }
